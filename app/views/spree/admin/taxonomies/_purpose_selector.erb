@@ -1,0 +1,5 @@
+<%= f.field_container :purpose do %>
+  <%= f.label :purpose, t(:purpose) %> <span class="required">*</span><br />
+  <%= error_message_on :taxonomy, :purpose, :class => 'fullwidth title' %>
+  <%= f.select :purpose, Spree::Taxonomy.purposes_dropdown %>
+<% end %>
