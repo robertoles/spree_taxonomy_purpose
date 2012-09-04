@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_taxonomy_purpose'
-  s.version     = '1.1.3'
+  s.version     = '1.2.0'
   s.summary     = 'Adds a purpose field to each taxonomy'
   s.description = 'Sets up purposes for taxonomies, should be used in conjunction with other purpose gems'
   s.required_ruby_version = '>= 1.9.2'
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
 
-  s.add_dependency 'spree_core', '~> 1.1.3'
+  s.add_dependency 'spree_core', '~> 1.2'
 
   s.add_development_dependency 'capybara', '1.0.1'
   s.add_development_dependency 'factory_girl', '~> 2.6.4'
