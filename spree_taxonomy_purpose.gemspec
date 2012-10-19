@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_taxonomy_purpose'
-  s.version     = '1.2.0'
+  s.version     = '1.2.1'
   s.summary     = 'Adds a purpose field to each taxonomy'
   s.description = 'Sets up purposes for taxonomies, should be used in conjunction with other purpose gems'
   s.required_ruby_version = '>= 1.9.2'
